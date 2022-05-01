@@ -570,33 +570,37 @@ display: inline-block;
 </div>
 
 <div class="container">
-<h1 title="Zdroj:https://www.financevpraxi.cz/mikroekonomie-analyza-poptavky">14. Podle Immanuela Kanta spolehlivým a univerzálním vodítkem mravního hodnocení a rozhodování může být jedině ... </h1>
+<h1>14. Srovnání efektu před a po užití nového léku u stejné skupiny lidí - použiju paired nebo unpaied t-test? </h1>
 <hr/>
 <input class="display" id="text14" placeholder="answer">
 <br/>
 <button onclick="fn14()" id = "btn14">Klikni</button>
 <button id="cudlik14" style="display:none" onclick="next(14)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='rozum'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='paired t-test'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.technologynetworks.com/informatics/articles/paired-vs-unpaired-t-test-differences-assumptions-and-hypotheses-330826'">Zdroj</p>
 </div>
 
 <div class="container">
-<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">15. Utilitarismus patří do ... </h1>
+<h1>15. Srovnávám dvě skupiny, kde jedna bere experimentální lék a druhá bere dosavadní nejlepší lék na trhu - použiju paired nebo unpaired t-test? </h1>
 <hr/>
 <input class="display" id="text15" placeholder="answer">
 <br/>
 <button onclick="fn15()" id = "btn15">Klikni</button>
 <button id="cudlik15" style="display:none" onclick="next(15)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='etiky důsledků'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='unpaired t-test'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.technologynetworks.com/informatics/articles/paired-vs-unpaired-t-test-differences-assumptions-and-hypotheses-330826'">Zdroj</p>
 </div>
 
 <div class="container">
-<h1 title="https://brno.rozhlas.cz/ecce-homo-john-locke-6470553">16. John Locke byl anglický ... filosof. </h1>
+<h1>16. Srovnání výsledků měření tělesné teploty dvěma různými teploměry u stejné skupiny lidí - použiju paired nebo unpaired t-test? </h1>
 <hr/>
 <input class="display" id="text16" placeholder="answer">
 <br/>
 <button onclick="fn16()" id = "btn16">Klikni</button>
 <button id="cudlik16" style="display:none" onclick="next(16)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='osvícenský'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='paired t-test'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.technologynetworks.com/informatics/articles/paired-vs-unpaired-t-test-differences-assumptions-and-hypotheses-330826'">Zdroj</p>
+
 </div>
 
 <div class="container">
@@ -1556,7 +1560,7 @@ document.getElementById('zvuk13').play(); return false;
 
 function fn14()
 {
-if (document.getElementById("text14").value == "rozum") {
+if (document.getElementById("text14").value == "paired t-test") {
 document.getElementById('cudlik14').style.display = "inline";
 document.getElementById('zvuk14').play(); return false;
 }
@@ -1564,7 +1568,7 @@ document.getElementById('zvuk14').play(); return false;
 
 function fn15()
 {
-if (document.getElementById("text15").value == "etiky důsledků") {
+if (document.getElementById("text15").value == "unpaired t-test") {
 document.getElementById('cudlik15').style.display = "inline";
 document.getElementById('zvuk15').play(); return false;
 }
@@ -1573,7 +1577,7 @@ document.getElementById('zvuk15').play(); return false;
 
 function fn16()
 {
-if (document.getElementById("text16").value == "osvícenský") {
+if (document.getElementById("text16").value == "paired t-test") {
 document.getElementById('cudlik16').style.display = "inline";
 document.getElementById('zvuk16').play(); return false;
 }
