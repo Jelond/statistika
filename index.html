@@ -520,23 +520,23 @@ display: inline-block;
 </div>
 
 <div class="container">
-<h1 title="Zdroj:https://www.wma.net/wp-content/uploads/2016/11/Helsinska-deklarace-WMA-preklad-2013.pdf">9. Dokument, který obsahuje etické zásady pro lékařský výzkum s účastí lidských bytostí, se nazývá ... </h1>
+<h1>9. "Type I error" je ...</h1>
 <hr/>
 <input class="display" id="text9" placeholder="answer">
 <br/>
 <button onclick="fn9()" id = "btn9">Klikni</button>
 <button id="cudlik9" style="display:none" onclick="next(9)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Helsinská deklarace WMA'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='zamítnutí nulové hypotézy, která je ve skutečnosti pravdivá'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1 title="Zdroj:https://www.financevpraxi.cz/mikroekonomie-analyza-poptavky">10. Etické kodexy patří ... </h1>
+<h1 title="Zdroj:https://www.financevpraxi.cz/mikroekonomie-analyza-poptavky">10. "Type II error" je </h1>
 <hr/>
 <input class="display" id="text10" placeholder="answer">
 <br/>
 <button onclick="fn10()" id = "btn10">Klikni</button>
 <button id="cudlik10" style="display:none" onclick="next(10)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='do deontologie'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='přijetí nulové hypotézy, která je ve skutečnosti nepravdivá'">Tajenka</p>
 </div>
 
 <div class="container">
@@ -1515,7 +1515,7 @@ document.getElementById('zvuk8').play(); return false;
 
 function fn9()
 {
-if (document.getElementById("text9").value == "Helsinská deklarace WMA") {
+if (document.getElementById("text9").value == "zamítnutí nulové hypotézy, která je ve skutečnosti pravdivá") {
 document.getElementById('cudlik9').style.display = "inline";
 document.getElementById('zvuk9').play(); return false;
 }
@@ -1523,7 +1523,7 @@ document.getElementById('zvuk9').play(); return false;
 
 function fn10()
 {
-if (document.getElementById("text10").value == "do deontologie") {
+if (document.getElementById("text10").value == "přijetí nulové hypotézy, která je ve skutečnosti nepravdivá") {
 document.getElementById('cudlik10').style.display = "inline";
 document.getElementById('zvuk10').play(); return false;
 }
