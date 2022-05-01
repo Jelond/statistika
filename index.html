@@ -193,7 +193,7 @@ display: inline-block;
 <source src="zvuk/21.m4a" type="audio/mpeg" />
 </audio>
 <audio id="zvuk22">
-<source src="zvuk/22.m4a" type="audio/mpeg" />
+<source src="zvuk/22.mp3" type="audio/mpeg" />
 </audio>
 <audio id="zvuk23">
 <source src="zvuk/23.m4a" type="audio/mpeg" />
@@ -604,63 +604,70 @@ display: inline-block;
 </div>
 
 <div class="container">
-<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">17. ... povídal, že "Skepticismus je místo, kde si lidský rozum může odpočinout, kde může uvažovat nad svým dogmatickým blouděním, ale není to místo vhodné pro trvalý pobyt". </h1>
+<h1>17. ... is denoted by p-values</h1>
 <hr/>
 <input class="display" id="text17" placeholder="answer">
 <br/>
 <button onclick="fn17()" id = "btn17">Klikni</button>
 <button id="cudlik17" style="display:none" onclick="next(17)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Immanuel Kant'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='statistical significance'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.scribbr.com/statistics/effect-size/'">Zdroj</p>
+
 </div>
 
 <div class="container">
-<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">18. Kdo povídal, že "A život člověka je osamělý, ubohý, ošklivý, zvířecí a krátký" ?  </h1>
+<h1>18. ... is represented by effect sizes </h1>
 <hr/>
 <input class="display" id="text18" placeholder="answer">
 <br/>
 <button onclick="fn18()" id = "btn18">Klikni</button>
 <button id="cudlik18" style="display:none" onclick="next(18)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Thomas Hobbes'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='practical significance'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.scribbr.com/statistics/effect-size/'">Zdroj</p>
 </div>
 
 <div class="container">
-<h1 title="https://edu.uhk.cz/~jindrvo1/files/maek1/texty/07_Nezamestnanost.pdf">19. A v jaké souvislosti to povídal? </h1>
+<h1>19. Statistical significance alone can be misleading because it’s influenced by the ... .</h1>
 <hr/>
 <input class="display" id="text19" placeholder="answer">
 <br/>
 <button onclick="fn19()" id = "btn19">Klikni</button>
 <button id="cudlik19" style="display:none" onclick="next(19)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='V souvislosti s válkou.'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='sample size'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.scribbr.com/statistics/effect-size/'">Zdroj</p>
 </div>
 
 <div class="container">
-<h1 title="Zdroj: http://gymnazium1.milevsko.cz/dokumenty/ekf2/inf/inflace.html">20. "Jednej jen podle té maximy, od níž můžeš zároveň chtít, aby se stala ..." </h1>
+<h1>20. Increasing the sample size always makes it more likely to find a statistically significant effect, no matter how small the effect truly is in the ... .</h1>
 <hr/>
 <input class="display" id="text20" placeholder="answer">
 <br/>
 <button onclick="fn20()" id = "btn20">Klikni</button>
 <button id="cudlik20" style="display:none" onclick="next(20)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='obecným zákonem'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='real world'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.scribbr.com/statistics/effect-size/'">Zdroj</p>
 </div>
 
 <div class="container">
-<h1 title="Zdroj: http://gymnazium1.milevsko.cz/dokumenty/ekf2/inf/inflace.html">21. "Jednej jen podle té maximy, od níž můžeš zároveň chtít, aby ... obecným zákonem" </h1>
+<h1>21. In contrast, ... are independent of the ... . </h1>
 <hr/>
 <input class="display" id="text21" placeholder="answer">
 <br/>
 <button onclick="fn21()" id = "btn21">Klikni</button>
 <button id="cudlik21" style="display:none" onclick="next(21)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='se stala'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='effect sizes; sample size'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://www.scribbr.com/statistics/effect-size/'">Zdroj</p>
 </div>
 
 <div class="container">
-<h1 title="Zdroj: http://gymnazium1.milevsko.cz/dokumenty/ekf2/inf/inflace.html">22. ... povídal, že ... vede k despotismu. </h1>
+<h1>22. To denote = ... </h1>
 <hr/>
 <input class="display" id="text22" placeholder="answer">
 <br/>
 <button onclick="fn22()" id = "btn22">Klikni</button>
 <button id="cudlik22" style="display:none" onclick="next(22)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='John Locke; Hobbesova teorie'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='to represent something'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='https://dictionary.cambridge.org/dictionary/english/denote'">Zdroj</p>
 </div>
 
 <div class="container">
@@ -1586,7 +1593,7 @@ document.getElementById('zvuk16').play(); return false;
 
 function fn17()
 {
-if (document.getElementById("text17").value == "Immanuel Kant") {
+if (document.getElementById("text17").value == "statistical significance") {
 document.getElementById('cudlik17').style.display = "inline";
 document.getElementById('zvuk17').play(); return false;
 }
@@ -1595,7 +1602,7 @@ document.getElementById('zvuk17').play(); return false;
 
 function fn18()
 {
-if (document.getElementById("text18").value == "Thomas Hobbes") {
+if (document.getElementById("text18").value == "practical significance") {
 document.getElementById('cudlik18').style.display = "inline";
 document.getElementById('zvuk18').play(); return false;
 }
@@ -1603,7 +1610,7 @@ document.getElementById('zvuk18').play(); return false;
 
 function fn19()
 {
-if (document.getElementById("text19").value == "V souvislosti s válkou.") {
+if (document.getElementById("text19").value == "sample size") {
 document.getElementById('cudlik19').style.display = "inline";
 document.getElementById('zvuk19').play(); return false;
 }
@@ -1611,7 +1618,7 @@ document.getElementById('zvuk19').play(); return false;
 
 function fn20()
 {
-if (document.getElementById("text20").value == "obecným zákonem") {
+if (document.getElementById("text20").value == "real world") {
 document.getElementById('cudlik20').style.display = "inline";
 document.getElementById('zvuk20').play(); return false;
 }
@@ -1619,7 +1626,7 @@ document.getElementById('zvuk20').play(); return false;
 
 function fn21()
 {
-if (document.getElementById("text21").value == "se stala") {
+if (document.getElementById("text21").value == "effect sizes; sample size") {
 document.getElementById('cudlik21').style.display = "inline"
 document.getElementById('zvuk21').play(); return false;;
 }
@@ -1627,7 +1634,7 @@ document.getElementById('zvuk21').play(); return false;;
 
 function fn22()
 {
-if (document.getElementById("text22").value == "John Locke; Hobbesova teorie") {
+if (document.getElementById("text22").value == "to represent something") {
 document.getElementById('cudlik22').style.display = "inline";
 document.getElementById('zvuk22').play(); return false;
 }
